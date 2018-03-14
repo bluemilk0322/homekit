@@ -27,7 +27,7 @@
 		"version": 6,
 		"timeout": 5000,
 		"disabled": ["switch"],
-		"doPolling": false,
+		"doPolling": true,
 		"pollingInterval": 60
 	}
 ],
