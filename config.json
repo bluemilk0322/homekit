@@ -1,0 +1,34 @@
+{
+	"bridge": {
+		"name": "Zackshomebridge",
+		"username": "B8:27:EB:3C:F1:EC",
+		"port": 54321,
+		"pin": "123-45-678"
+		},
+	"accessories": [{
+		"accessory": "OpenweathermapTemperature",
+		"name": "室外天氣",
+		"url": "http://api.openweathermap.org/data/2.5/weather?q=Guizikeng,TW&appid=1f3a8af975aac7074536c0f0035db5ca"
+	},
+	{
+		"accessory": "RaspberryPiTemperature",
+		"name": "RaspberryPi CPU Temperature",
+		"updateInterval": 1000
+	},
+	{
+		"accessory": "Synology",
+		"name": "Diskstation",
+		"ip": "192.168.88.244",
+		"mac": "00-11-32-2C-A6-03",
+		"port": "5000",
+		"secure": false,
+		"account": "Zacks",
+		"password": "Shion@0906",
+		"version": 6,
+		"timeout": 5000,
+		"disabled": ["switch", "temp"],
+		"doPolling": false,
+		"pollingInterval": 60
+	}
+]
+}
