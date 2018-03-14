@@ -14,6 +14,21 @@
 		"accessory": "RaspberryPiTemperature",
 		"name": "RaspberryPi CPU Temperature",
 		"updateInterval": 1000
+	},
+	{
+		"accessory": "Synology",
+		"name": "Diskstation",
+		"ip": "192.168.88.244",
+		"mac": "00-11-32-2C-A6-03",
+		"port": "5000",
+		"secure": false,
+		"account": "Zacks",
+		"password": "Shion@0906",
+		"version": 6,
+		"timeout": 5000,
+		"disabled": ["switch"],
+		"doPolling": false,
+		"pollingInterval": 60
 	}
 ],
 	"platforms": [{
