@@ -16,7 +16,7 @@
 		"updateInterval": 1000
 	},
 	{
-        "accessory": "Aqicn",
+        "accessory": "airnow",
         "name": "Aqicn",
         "provider": "aqicn",
         "aqicn_api": "18ece85375622870d8a027644afa67841c7db499",
