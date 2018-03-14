@@ -16,20 +16,13 @@
 		"updateInterval": 1000
 	},
 	{
-		"accessory": "Synology",
-		"name": "Diskstation",
-		"ip": "192.168.88.244",
-		"mac": "00-11-32-2C-A6-03",
-		"port": "5000",
-		"secure": false,
-		"account": "Zacks",
-		"password": "Shion@0906",
-		"version": 6,
-		"timeout": 5000,
-		"disabled": ["switch"],
-		"doPolling": true,
-		"pollingInterval": 60
-	}
+        "accessory": "Aqicn",
+        "name": "Aqicn",
+        "provider": "aqicn",
+        "aqicn_api": "18ece85375622870d8a027644afa67841c7db499",
+        "aqicn_city": "@1595",
+        "polling": "30"
+    }
 ],
 	"platforms": [{
 		"platform": "cmdSwitch2",
