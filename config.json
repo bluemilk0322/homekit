@@ -14,21 +14,28 @@
 		"accessory": "RaspberryPiTemperature",
 		"name": "RaspberryPi CPU Temperature",
 		"updateInterval": 1000
-	},
-	{
-		"accessory": "Synology",
-		"name": "Diskstation",
-		"ip": "192.168.88.244",
-		"mac": "00-11-32-2C-A6-03",
-		"port": "5000",
-		"secure": false,
-		"account": "Zacks",
-		"password": "Shion@0906",
-		"version": 6,
-		"timeout": 5000,
-		"disabled": ["switch", "temp"],
-		"doPolling": false,
-		"pollingInterval": 60
 	}
-]
+],
+	"platforms": [{
+		"platform": "cmdSwitch2",
+		"name": "CMD Switch",
+		"switches": [{
+			"name" : "HTPC",
+			"on_cmd": "wakeonlan 90:cd:b6:c6:a5:8b",
+			"off_cmd": "net rpc shutdown -I 59.115.164.164 -U bluemilk0322@hotmail.com%shion0172",
+			"state_cmd": "ping -c 2 -W 1 59.115.164.164 | grep -i '2 received'"
+		}, {
+			"name" : "Playstation 4",
+			"on_cmd": "ps4-waker",
+			"off_cmd": "ps4-waker standby",
+			"state_cmd": "ps4-waker search | grep -i '200 Ok'",
+			"polling": true,
+			"interval": 5,
+			"timeout": 2000,
+			"manufacturer": "Sony Corporation",
+			"model": "CUH-2015A",
+			"serial": "03274524085637613"
+		}]
+ 	
+	}]
 }
