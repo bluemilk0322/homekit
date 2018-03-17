@@ -2,22 +2,22 @@
 	"bridge": {
 		"name": "Zackshomebridge",
 		"username": "B8:27:EB:3C:F1:EC",
-		"port": 54321,
-		"pin": "123-45-678"
+		"port": 9487,
+		"pin": "571-71-547"
 		},
 	"accessories": [{
 		"accessory": "OpenweathermapTemperature",
-		"name": "室外天氣",
+		"name": "室外氣溫",
 		"url": "http://api.openweathermap.org/data/2.5/weather?q=Guizikeng,TW&appid=1f3a8af975aac7074536c0f0035db5ca"
 	},
 	{
 		"accessory": "RaspberryPiTemperature",
 		"name": "RaspberryPi CPU Temperature",
-		"updateInterval": 1000
+		"updateInterval": 60000
 	},
 	{
         "accessory": "airnow",
-        "name": "Aqicn",
+        "name": "淡水空氣品質",
         "provider": "aqicn",
         "aqicn_api": "18ece85375622870d8a027644afa67841c7db499",
         "aqicn_city": "@1595",
