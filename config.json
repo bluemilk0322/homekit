@@ -29,7 +29,21 @@
 		"on_url": "http://192.168.88.146:80/LED=ON",
 		"off_url": "http://192.168.88.146:80/LED=OFF",
 		"http_method": "GET"
+	},
+	{
+		"accessory": "PeoplePlus",
+		"name": "Zacks's iPhone",
+		"device": {
+			"mac": "B8:53:AC:20:75:36"
 		}
+	},
+	{
+		"accessory": "PeoplePlus",
+		"name": "Nightaria's iPhone",
+		"device": {
+			"mac": "58:40:4E:1D:87:FB"
+		}
+	}
 ],
 	"platforms": [{
 		"platform": "cmdSwitch2",
@@ -52,32 +66,6 @@
 			"serial": "274524085637613"
 		}]
 
-	},
-	{
-        "platform": "People",
-        "threshold" : 15,
-        "anyoneSensor" : true,
-        "nooneSensor" : false,
-        "webhookPort": 51828,
-        "cacheDirectory": "./.node-persist/storage",
-        "pingInterval": 10000,
-        "ignoreReEnterExitSeconds": 0,
-        "people" : [
-            {
-                "name" : "Zacks",
-                "target" : "Tapei no free",
-                "threshold" : 15,
-                "pingInterval": 10000,
-                "ignoreReEnterExitSeconds": 0
-            },
-            {
-                "name" : "Nightaria",
-                "target" : "Nightaria",
-                "threshold" : 15,
-                "pingInterval": 10000,
-                "ignoreReEnterExitSeconds": 0
-            }
-        ]
-    }
+	}
 	]
 }
