@@ -52,5 +52,32 @@
 			"serial": "274524085637613"
 		}]
 
-	}]
+	},
+	{
+        "platform": "People",
+        "threshold" : 15,
+        "anyoneSensor" : true,
+        "nooneSensor" : false,
+        "webhookPort": 51828,
+        "cacheDirectory": "./.node-persist/storage",
+        "pingInterval": 10000,
+        "ignoreReEnterExitSeconds": 0,
+        "people" : [
+            {
+                "name" : "Zacks",
+                "target" : "Tapei no free",
+                "threshold" : 15,
+                "pingInterval": 10000,
+                "ignoreReEnterExitSeconds": 0
+            },
+            {
+                "name" : "Nightaria",
+                "target" : "Nightaria",
+                "threshold" : 15,
+                "pingInterval": 10000,
+                "ignoreReEnterExitSeconds": 0
+            }
+        ]
+    }
+	]
 }
