@@ -22,7 +22,14 @@
         "aqicn_api": "18ece85375622870d8a027644afa67841c7db499",
         "aqicn_city": "@1595",
         "polling": "30"
-    }
+	},
+	{
+		"accessory": "Http",
+		"name": "Living Room Lamp",
+		"on_url": "http://192.168.88.146:80/LED=ON",
+		"off_url": "http://192.168.88.146:80/LED=OFF",
+		"http_method": "GET"
+		}
 ],
 	"platforms": [{
 		"platform": "cmdSwitch2",
