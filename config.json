@@ -37,9 +37,9 @@
 		"ip": "192.168.88.233",
 		"pingInterval": 45,
 		"wakeGraceTime": 10,
-		"wakeCommand": "ssh 192.168.88.233 caffeinate -u -t 300",
+		"wakeCommand": "ssh zacks@192.168.88.233 caffeinate -u -t 300",
 		"shutdownGraceTime": 15,
-		"shutdownCommand": "ssh 192.168.88.233 sudo shutdown -h now"
+		"shutdownCommand": "ssh zacks@192.168.88.233 sudo shutdown -h now"
 	  }
 ],
 	"platforms": [{
