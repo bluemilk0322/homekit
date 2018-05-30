@@ -29,7 +29,18 @@
 		"on_url": "http://192.168.88.146:80/LED=ON",
 		"off_url": "http://192.168.88.146:80/LED=OFF",
 		"http_method": "GET"
-	}
+	},
+	{
+		"accessory": "NetworkDevice",
+		"name": "My Macbook",
+		"mac": "f4:0f:24:39:0d:7a",
+		"ip": "192.168.88.233",
+		"pingInterval": 45,
+		"wakeGraceTime": 10,
+		"wakeCommand": "ssh 192.168.88.233 caffeinate -u -t 300",
+		"shutdownGraceTime": 15,
+		"shutdownCommand": "ssh 192.168.88.233 sudo shutdown -h now"
+	  }
 ],
 	"platforms": [{
 		"platform": "cmdSwitch2",
