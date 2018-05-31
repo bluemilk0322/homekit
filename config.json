@@ -75,14 +75,14 @@
         "ignoreReEnterExitSeconds": 0,
         "people" : [
             {
-                "name" : "Zacks",
+                "name" : "耀銘",
                 "target" : "Tapei no free",
                 "threshold" : 15,
                 "pingInterval": 10000,
                 "ignoreReEnterExitSeconds": 0
             },
             {
-                "name" : "Nightaria",
+                "name" : "宇青",
                 "target" : "Nightaria",
                 "threshold" : 15,
                 "pingInterval": 10000,
